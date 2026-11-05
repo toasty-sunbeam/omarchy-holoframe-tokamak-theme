@@ -4,7 +4,7 @@ An [Omarchy](https://omarchy.org) theme with an animated wireframe-hologram back
 
 ![Tokamak Reactor preview](preview.png)
 
-A fusion reactor drawn with 18 D-shaped field coils, 6 ring coils and a central solenoid around a plasma of field lines winding the torus. Every 30 seconds it runs one full pulse: ramp-up, burn and ramp-down, with small flare spikes. The figures are modelled on ITER (500 MW, Q = 10, 15 MA, 150 million K). The ring is centred so the lock screen's password field sits inside it.
+A fusion reactor drawn with 18 D-shaped field coils, 6 ring coils and a central solenoid around a plasma of field lines winding the torus. Every 42 seconds it runs one full machine cycle: ramp-up, burn, ramp-down, then a dwell with no plasma while the solenoid recharges, counting down to the next pulse. The plasma field lines fade in and out with the plasma current. During the burn, edge-localized modes (ELMs) build and release edge pressure on a gauge under the power chart, spike the power trace and briefly lift Q. The figures are modelled on ITER (500 MW, Q = 10, 15 MA, 150 million K). The ring is centred so the lock screen's password field sits inside it.
 
 Holoframe is a set of five themes, each a single-hue hologram on near-black with bracketed HUD panels, live readouts and scanlines. Every scene is based on real engineering or physics, and all artwork is original and drawn in code.
 
@@ -18,7 +18,7 @@ omarchy theme install https://github.com/toasty-sunbeam/omarchy-holoframe-tokama
 
 | File | Purpose |
 |---|---|
-| `backgrounds/1-tokamak-loop.mp4` | Seamless 30-second animated background (2560×1600, H.264). The default. |
+| `backgrounds/1-tokamak-loop.mp4` | Seamless 42-second animated background (2560×1600, H.264): one full pulse and dwell. The default. |
 | `backgrounds/2-tokamak-still.png` | Still version (3072×1920). Switch with `omarchy theme bg next`. |
 | `colors.toml` | Palette, plus a gradient window border that fades from the accent to a dim edge. |
 | `shell.lock.toml` | Lock screen password field: a translucent card with thick side edges that light up while you type. |

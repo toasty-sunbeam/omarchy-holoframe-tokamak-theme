@@ -1,0 +1,14 @@
+# Lock screen password field: a translucent card with HUD side rails.
+# Thin top and bottom edges, thick left and right rails; the rails light up while typing.
+background       = "#0a0804"
+background-alpha = 0.72
+text             = "#f2e6c8"
+placeholder      = "#8a8270"
+text-error       = "#ff5a4e"
+border           = "#785d21"
+border-active    = "#ffc444"
+border-error     = "#ff5a4e"
+border-alpha     = 1.0
+border-width     = "1 3"
+selection        = "#ffc444"
+selection-alpha  = 0.4

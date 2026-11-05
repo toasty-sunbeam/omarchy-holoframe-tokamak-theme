@@ -1,0 +1,36 @@
+# Holoframe · Tokamak Reactor. Wireframe-hologram theme, one hue per variant.
+mode = "dark"
+
+accent = "#ffc444"
+selection = "#4f3d16"
+muted = "#726c5c"
+
+background = "#0a0804"
+dark_background = "#040302"
+darker_background = "#070603"
+lighter_background = "#221b0a"
+
+foreground = "#f2e6c8"
+dark_foreground = "#7e7766"
+light_foreground = "#f5dea7"
+bright_foreground = "#ffffff"
+
+red = "#ff5a4e"
+yellow = "#f2c14e"
+orange = "#ff8f3a"
+green = "#8fd46a"
+cyan = "#4fd6d0"
+blue = "#5aa9ff"
+magenta = "#d07bff"
+brown = "#7a4a2a"
+
+bright_red = "#ff8378"
+bright_yellow = "#ffd97a"
+bright_green = "#b2ec8c"
+bright_cyan = "#86ece6"
+bright_blue = "#8cc4ff"
+bright_magenta = "#e3a6ff"
+
+# Window borders fade from the accent to a dim hologram edge and back, like the HUD panels.
+hyprland_active_border = "rgba(ffc444ee) rgba(ffc44440) rgba(ffc444ee) 45deg"
+hyprland_inactive_border = "rgba(ffc44430)"

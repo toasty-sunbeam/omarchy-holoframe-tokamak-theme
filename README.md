@@ -6,7 +6,7 @@ An [Omarchy](https://omarchy.org) theme with an animated wireframe-hologram back
 
 A fusion reactor drawn with 18 D-shaped field coils, 6 ring coils and a central solenoid around a plasma of field lines winding the torus. Every 42 seconds it runs one full machine cycle: ramp-up, burn, ramp-down, then a dwell with no plasma while the solenoid recharges, counting down to the next pulse. The plasma field lines fade in and out with the plasma current. During the burn, edge-localized modes (ELMs) build and release edge pressure on a gauge under the power chart, spike the power trace and briefly lift Q. The figures are modelled on ITER (500 MW, Q = 10, 15 MA, 150 million K). The ring is centred so the lock screen's password field sits inside it.
 
-Holoframe is a set of five themes, each a single-hue hologram on near-black with bracketed HUD panels, live readouts and scanlines. Every scene is based on real engineering or physics, and all artwork is original and drawn in code.
+Holoframe is a set of six themes, each a single-hue hologram on near-black with bracketed HUD panels, live readouts and scanlines. Every scene is based on real engineering or physics, and all artwork is original and drawn in code.
 
 ## Install
 
@@ -54,6 +54,7 @@ o.bind("SUPER + ALT + P", "Pause background animation",
 - [Dyson Swarm](https://github.com/toasty-sunbeam/omarchy-holoframe-dyson-theme) (orange)
 - [O'Neill Habitat](https://github.com/toasty-sunbeam/omarchy-holoframe-oneill-theme) (magenta)
 - [Cycler Navigation](https://github.com/toasty-sunbeam/omarchy-holoframe-cycler-theme) (blue)
+- [Galactic Chart](https://github.com/toasty-sunbeam/omarchy-holoframe-galactic-theme) (orange HUD on the Milky Way)
 
 ## License
 
